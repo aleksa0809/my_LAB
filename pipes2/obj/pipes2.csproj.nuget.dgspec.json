@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/aleksandrasagitova/Documents/myLAB/CSHARP/todo/todo.csproj": {}
+    "/Users/aleksandrasagitova/Documents/myLAB/CSHARP/pipes2/pipes2.csproj": {}
   },
   "projects": {
-    "/Users/aleksandrasagitova/Documents/myLAB/CSHARP/todo/todo.csproj": {
+    "/Users/aleksandrasagitova/Documents/myLAB/CSHARP/pipes2/pipes2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/aleksandrasagitova/Documents/myLAB/CSHARP/todo/todo.csproj",
-        "projectName": "todo",
-        "projectPath": "/Users/aleksandrasagitova/Documents/myLAB/CSHARP/todo/todo.csproj",
+        "projectUniqueName": "/Users/aleksandrasagitova/Documents/myLAB/CSHARP/pipes2/pipes2.csproj",
+        "projectName": "pipes2",
+        "projectPath": "/Users/aleksandrasagitova/Documents/myLAB/CSHARP/pipes2/pipes2.csproj",
         "packagesPath": "/Users/aleksandrasagitova/.nuget/packages/",
-        "outputPath": "/Users/aleksandrasagitova/Documents/myLAB/CSHARP/todo/obj/",
+        "outputPath": "/Users/aleksandrasagitova/Documents/myLAB/CSHARP/pipes2/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
@@ -38,12 +38,6 @@
       },
       "frameworks": {
         "netcoreapp3.0": {
-          "dependencies": {
-            "NUnit": {
-              "target": "Package",
-              "version": "[3.12.0, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",

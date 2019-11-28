@@ -9,3 +9,5 @@
 /Users/aleksandrasagitova/Documents/myLAB/CSHARP/todo/bin/Debug/netcoreapp3.0/todo.pdb
 /Users/aleksandrasagitova/Documents/myLAB/CSHARP/todo/obj/Debug/netcoreapp3.0/todo.dll
 /Users/aleksandrasagitova/Documents/myLAB/CSHARP/todo/obj/Debug/netcoreapp3.0/todo.pdb
+/Users/aleksandrasagitova/Documents/myLAB/CSHARP/todo/bin/Debug/netcoreapp3.0/nunit.framework.dll
+/Users/aleksandrasagitova/Documents/myLAB/CSHARP/todo/obj/Debug/netcoreapp3.0/todo.csproj.CopyComplete

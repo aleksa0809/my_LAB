@@ -6,9 +6,9 @@ namespace todo
 {
     public class Menu
     {
+        //process user's answer(add, edit items,print lists, exit programm)
         public Menu(string command, List<Task> current, List<Task> archived)
         {
-
             switch (command.ToUpper())
             {
                 case "A":
@@ -26,30 +26,24 @@ namespace todo
                     }
                     printList(current);
                     Console.WriteLine("Please, enter the  number of  task ");
-                    try
-                    {
-                        int position = Int32.Parse(Console.ReadLine());
-                        position--;//count is from zero
-                        if (position < 0 || position > current.Count - 1)
-                        {
-                            Console.WriteLine("Incorrect position");
-                            break;
-                        }
-
-                        // Console.WriteLine(position);
-                        current[position - 1].edit();
-                    }
-                    catch (FormatException e)
-                    {
-                        Console.WriteLine("Incorrect number");
-                    }
+                  string answer = Console.ReadLine();
+                  int position = GetPosition(answer, current);
+                  if(position ==-1){
+                      Console.WriteLine("Incorrect position, mistake");
+                      break;
+                  }
+                  current[position].edit();
                     break;
                 case "R":
                     foreach (Task task in current)
                     {
-                        if (task.archived) continue;
-                        current.Remove(task);
+                        if (!task.archived) continue;
                         archived.Add(task);
+                    }
+                    foreach (Task task in archived)
+                    {
+                        //remove archived tasks from current todo list
+                        if (task.archived) current.Remove(task);
                     }
                     break;
                 case "P":
@@ -58,36 +52,57 @@ namespace todo
                 case "V":
                     printList(archived);
                     break;
+                    case "Z":
+                    Console.WriteLine("unittest");
+                    break;
                 case "Q":
                     Environment.Exit(0);
                     break;
-
                 default:
                     Console.WriteLine("I  do not understand");
                     break;
+                    
             }
         }
+        //
         void printList(List<Task> list)
         {
-            if (list.Count == 0)
+            if (list.Count == 0)//if list is empty, we return back
             {
                 Console.WriteLine("The list is empty.");
                 return;
             }
-            int count = 1;
-            foreach (Task task in list)
+            int count = 1;//print the numbers of item of list
+
+            foreach (Task task in list)//print all the tasks with positions
             {
 
                 Console.Write(count + ") ");
                 Console.WriteLine(task);
                 count++;
-
             }
-           
         }
+        public int  GetPosition(string answer, List<Task> list)
+        {
+            int pos =-1;//default return value
+            try
+            {
+                pos = Int32.Parse(answer);//convert from string for  number
+                pos--;//count is from zero
+                if (pos < 0 || pos > list.Count - 1)
+                    return -1;
+            }
+            catch (FormatException e)
+            {
+                return -1;
+            }
+            return pos;
+        }
+
     }
 
 }
+
 
 
 

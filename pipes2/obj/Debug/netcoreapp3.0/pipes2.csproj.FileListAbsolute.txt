@@ -1,0 +1,11 @@
+/Users/aleksandrasagitova/Documents/myLAB/CSHARP/pipes2/obj/Debug/netcoreapp3.0/pipes2.csprojAssemblyReference.cache
+/Users/aleksandrasagitova/Documents/myLAB/CSHARP/pipes2/obj/Debug/netcoreapp3.0/pipes2.AssemblyInfoInputs.cache
+/Users/aleksandrasagitova/Documents/myLAB/CSHARP/pipes2/obj/Debug/netcoreapp3.0/pipes2.AssemblyInfo.cs
+/Users/aleksandrasagitova/Documents/myLAB/CSHARP/pipes2/bin/Debug/netcoreapp3.0/pipes2
+/Users/aleksandrasagitova/Documents/myLAB/CSHARP/pipes2/bin/Debug/netcoreapp3.0/pipes2.deps.json
+/Users/aleksandrasagitova/Documents/myLAB/CSHARP/pipes2/bin/Debug/netcoreapp3.0/pipes2.runtimeconfig.json
+/Users/aleksandrasagitova/Documents/myLAB/CSHARP/pipes2/bin/Debug/netcoreapp3.0/pipes2.runtimeconfig.dev.json
+/Users/aleksandrasagitova/Documents/myLAB/CSHARP/pipes2/bin/Debug/netcoreapp3.0/pipes2.dll
+/Users/aleksandrasagitova/Documents/myLAB/CSHARP/pipes2/bin/Debug/netcoreapp3.0/pipes2.pdb
+/Users/aleksandrasagitova/Documents/myLAB/CSHARP/pipes2/obj/Debug/netcoreapp3.0/pipes2.dll
+/Users/aleksandrasagitova/Documents/myLAB/CSHARP/pipes2/obj/Debug/netcoreapp3.0/pipes2.pdb
